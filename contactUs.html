@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+h2 {text-align: center;}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding:0px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: darkolivegreen;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width : 16.665%;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  text-align: center;
+  Background: #cadecd;
+}
+
+.row1{
+  Background: #cadecd;
+}
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.row2{
+  Background: #d2e9da;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #F2EDDC;
+  text-align: center;
+  padding: 10px;
+}
+.col-75 {
+  float: right
+  text-align: right;
+}
+
+/* Style the form */
+input[type=text,email], select, textarea,{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1,.column2, .col-25, input[type=submit], {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <img src ="images/headerGreen.png" width="100%" height="50%">
+    </div>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Tour packages.html">Tour Package</a>
+    <a href="travel ideas.html">Travel Ideas</a>
+    <a href="accommodation.html">Accommodations</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="contactUs.html">Contact Us</a>
+</div>
+
+<h2 style="background-color:#f2eddc; ">Get In Touch</h2>
+<div class="row1">
+  <div class="column1">
+    <h3>Phone</h3>
+    <img src="images/phone.png" width="27%">
+    <p>+603 9212 6450</p>
+  </div>
+
+  <div class="column1">
+    <h3>Email</h3>
+    <img src="images/mail.png" width="30%">
+    <p>travelora@gmail.com</p>
+  </div>
+
+  <div class="column1">
+    <h3>Social Media</h3>
+    <img src="images/ig.png" width="30%">
+    <p>@travelora</p>
+  </div>
+</div>
+
+<div class="row2">
+  <div class="column2">
+    <h2>Message Us</h2>
+    <p>Travel around to experience the remarkable treasures and the hidden gems in Malaysia. Each state offers a unique Malaysian experience for all.Preparing for your vacation, We provide the best sugesstions to enjoy vacation with your beloved one.If you have any suggestions or comments for our website don't hesitate to give us feedback! </p>
+  </div>
+
+  <div class="column2">
+
+    <h2>Contact Us</h2>
+    <form action="/action_page.php">
+
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <input type="text" id="fname" name="firstname" placeholder="First Name">
+      <input type="text" id="lname" name="lastname" placeholder="Last Name">
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="mail">Email</label>
+      </div>
+      <input type="email" id="mail" name="email" >
+    </div>
+
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <textarea id="subject" name="subject" rows="10" cols="45"></textarea>
+      </div>
+    </div>
+    <br>
+
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
+  </div>
+
+</div>
+
+<div class="footer">
+    <p1>Copyright &copy; travelora - All Rights Reserved - Privacy Policy &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp</p1>
+    <img src="images/phone.png" width="2%">
+    <img src="images/mail.png" width="2%">
+    <img src="images/ig2.png" width="2%">
+
+</div>
+
+
+</body>
+</html>

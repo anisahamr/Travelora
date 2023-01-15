@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Travelora</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+#more {display: none;}
+h2 {text-align: center;}
+p{text-align: left;}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding:0px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: darkolivegreen;
+}
+
+/* Style the topnav links */
+.topnav a {
+  width:16.665%;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:  #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  Background: #cadecd;
+  text-align: center;
+}
+
+.row{
+  Background: #cadecd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #F2EDDC;
+  padding: 10px;
+  text-align: center;
+}
+
+.post:not(:last-child){
+  margin-bottom: 50px;
+}
+
+.image1{
+  width:350px;
+  height:350px;
+  border: 8px;
+}
+
+.hide{
+  display: none;
+}
+
+footer {
+  text-align: justify;
+  padding: 10px;
+  color: white;
+}
+
+
+</style>
+
+</head>
+<body>
+
+  <div class="header">
+    <img src ="images/h2.png" width="100%" height="50%">
+    </div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Tour packages.html">Tour Package</a>
+  <a href="travel ideas.html">Travel Ideas</a>
+  <a href="accommodation.html">Accommodations</a>
+  <a href="AboutUs.html">About Us</a>
+  <a href="contactUs.html">Contact Us</a>
+</div>
+
+<div style="background-color:#f2eddc; "><h2>Place To Visit</h2></div>
+
+<div class="row">
+<div class = "column">
+  <div class="post"> 
+    <img src = "images/petronas-towers-kuala-lumpur-malaysia-shutterstock_397973560.jpg" class="image1">
+    <h3>City Ride</h3>
+    <p class="content">Explore urban playgrounds framed by iconic architecture, vibrant communities and
+      unique wilderness. The capital city of Malaysia, Kuala Lumpur welcomes about 13 million visitors a year. It is a city with 
+      museums and ties to its culture in places like the Old Market Square, yet it is balanced by the edgy architecture of the 
+      Petronas Twin Towers and mega shopping malls. The city is always "on," so you can find a nightlife scene anytime of the day as 
+      you take in meeting the locals, dining, and watching sporting events.</p>
+      <button onclick="readMore(this)">Read more</button></div>
+
+</div>
+
+<div class = "column">
+  <div class="post">
+    <img src = "images/20192340818174290.jpg" class="image1">
+    <h3>Natural Wonders</h3>
+    <p class="content">If you're looking to immerse yourself in Malaysia's diverse natural wonders, 
+        epitomized by enthralling sunsets, and jungle-lined hiking trails,you may easily overlook Malaysia in favor of its less-modernized neighbors like
+         Indonesia's Bali, or Thailand's Phi Phi Islands. Our hand-picked list of the best natural attractions in Malaysia proves when it 
+         comes to raw beauty, this country is a strong contender.</p>    
+    <button onclick="readMore(this)">Read more</button>
+  </div>
+</div>
+
+<div class = "column">
+  <div class="post">
+    <img src = "images/malaysia-best-beaches-mersing.jpg" class="image1">
+    <h3>Fun In The Sun</h3>
+    <p class="content">Known for its rainforests, orangutans, and vibrant cities, Malaysia is also home to some of the most stunning beaches in Asia. Whether 
+      you are seeking a private corner on quiet shores or palm-fringed beaches with plenty to see and do, Malaysia won't disappoint.In addition, Malaysia has
+      no shortage of options for every budget and taste: quiet tropical islands, secret little coves, and golden shores on the mainland. While neighboring 
+      Thailand's beaches are more commercialized, Malaysia still retains much of its raw charm. You'll find plenty of resorts, water sports, and adventures 
+      to pursue here, but also more chances to laze on the beach with much smaller crowds.</p>
+    <button onclick="readMore(this)">Read More</button>
+  </div>
+</div>
+</div>
+
+<div style="background-color:#f2eddc; "><h2>Things To Do</h2></div>
+
+<div class="row">
+  <div class = "column">
+    <div class="post"> 
+      <img src = "images/nasi kandar.jpg" class="image1">
+      <h3>Enjoy The Local Flavour</h3>
+      <p class="content">Nasi Kandar is a staple food in Malaysia and actually means ‘mixed rice’, as customers are given a plate with rice over which they 
+        can choose a variety of toppings and sauces. Nasi Kandar is based on Tamil dishes due to the high number of South Indian immigrants and the flavors 
+        reflect this with an emphasis on curry powder and chili. Common Nasi Kandar dishes include chicken, fish, or seafood such as prawns or squid in curry 
+        sauce as well as vegetables like okra and cabbage cooked in mustard seeds.</p>
+        <button onclick="readMore(this)">Read more</button></div>
+  
+  </div>
+  
+  <div class = "column">
+    <div class="post">
+      <img src = "images/cultures.jpg" class="image1">
+      <h3>Explore Culture Diversity</h3>
+      <p class="content">Malacca or Melaka is also known as ‘The Historic State’ and lies next to the Malacca Strait from which it gets its name. The state 
+        is said to have the most interesting architecture in all of Malaysia as it was formerly colonized by the Portuguese and features a number of red lacquer 
+        buildings from the period such as Christ Church. Malacca also has a high concentration of museums, galleries, and places of historic interest for visitors to explore.</p>    
+      <button onclick="readMore(this)">Read more</button>
+    </div>
+      </p>
+  </div>
+  
+  <div class = "column">
+    <div class="post">
+      <img src = "images/orang utan.jpg" class="image1">
+      <h3>Observe Orang Utan</h3>
+      <p class="content">Sepilok Orang Utan Rehabilitation Centre in Sabah, East Malaysia, is found outside of the city of Sandakan and was the first orang 
+        utan rehabilitation centre of its kind in the world when it opened in the 1960s. The aim of the centre is to rescue orphaned orang utans who have 
+        been left to fend for themselves due to illegal poaching and logging, or who have been found being kept as pets (which is illegal in Malaysia), and 
+        administer healthcare and training to the mammals so that they are able to reintegrate and survive in the wild. Once they are able to do so they are 
+        released. Visitors can observe the orang utans in the centre and tours are aimed to coincide with feeding times when the animals are usually present 
+        on the feeding platforms.</p>
+      <button onclick="readMore(this)">Read More</button>
+    </div>
+  </div>
+  </div>
+
+  <div style="background-color:#f2eddc; "><h2>Travel Tips</h2></div>
+  <div class ="row">
+
+    <div class ="column">
+      <h4>1. Learn the local language</h3>
+        <p>Not all locals speak the same language as travellers from around the world. Although most of them speak in English. In rural areas, locals can say simple phrases like ‘How are you?’ and ‘Thank you’. To communicate better with them, try to learn to say basic words in Malay, Chinese, and Tamil.</p>
+      <h4>2. Join local communities before arriving</h3>
+        <p>There are many travel enthusiasts and locals who share their love for Malaysian culture through events and programmes. We recommend looking at hostels that organise special programmes such as food tours, city tours, hiking, night life, and many other fun activities.</p>
+      <h4>3. Know duty-free rules</h3>
+        <p>Malaysia is serious about duty-free concession. There is a limit for buying certain items. Wine, spirits or malt liquor cannot exceed one litre per person. While only 200 cigarettes can be brought into Malaysia.</p>
+    </div>
+
+    <div class ="column">
+      <p> <img src ="https://www.columbusdirect.com/media/30364/lets-go-travel-tips.jpg?width=800" class="image1"></p>
+    </div>
+
+
+  <div class ="column">
+    <h4>4. Be adventurous in trying hawker stalls</h3>
+      <p>Hawker stalls can look hot and stuffy due to thick crowds, but the local delicacies may just be worth it. Authentic local food is prepared and cooked at stalls before serving.</p>
+    <h4>5. Prepare for hot and humid weather</h3>
+      <p>Malaysia offers lovely tropical weather, with temperatures roughly between 28 – 31ºC. The weather can be extremely hot on certain days, though, and more humid on rainy and sunny days.</p>
+    <h4>6. Make use of public transport</h3>
+      <p>Public transport has become more convenient for visitors travelling around Malaysia. There are many lines – including the LRT, MRT and Monorail – to be used to go out and about in Kuala Lumpur.</p>
+  </div>
+</div>
+
+  <div class="footer">
+    <p1>Copyright &copy; travelora - All Rights Reserved - Privacy Policy &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+      &nbsp;&nbsp;&nbsp;&nbsp;
+    </p1>
+    <img src="images/phone.png" width="2%">
+    <img src="images/mail.png" width="2%">
+    <img src="images/ig2.png" width="2%">
+  </div>
+
+<script>
+
+  let noOfCharac=150;
+  let contents = document.querySelectorAll(".content");
+  contents.forEach(content=> {
+      if(content.textContent.length < noOfCharac){
+        content.nextElementSibling.style.display = "none";
+      }
+
+      else{
+        let displayText = content.textContent.slice(0,noOfCharac);
+        let moreText = content.textContent.slice(noOfCharac);
+        content.innerHTML = `${displayText}<span class ="dots">...</span>
+        <span class="hide more">${moreText}</span>`;    
+      }
+  });
+
+  function readMore(btn){
+    let post = btn.parentElement;
+    post.querySelector(".dots").classList.toggle("hide");
+    post.querySelector(".more").classList.toggle("hide");
+    btn.textContent == "Read More"? btn.textContent="Read Less": btn.textContent ="Read More";
+  }
+
+</script>
+
+</body>
+</html>
